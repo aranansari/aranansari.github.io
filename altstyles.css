@@ -88,11 +88,11 @@
 }
 .nav{
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
     padding-top: 16px;
     padding-bottom: 16px;
     display:grid;
-    grid-template-columns: 3% 30%;
+    grid-template-columns: 3% auto;
     grid-column-gap:47%;
 }
 body{

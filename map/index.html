@@ -13,7 +13,18 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
+    <nav class="navbar">
+      <section class="nav">
+      <div id="nav-left">
+        <img id="icon" src="images/icon.png">
+      </div>
+      <div id="nav-items">
+      <a class="nav-link" href="map">Explore</a>
+      <a class="nav-link">About</a>
+      <a class="nav-link">Log In</a>
+    </div>
+  </section>
+    </nav>
         <!--The div element for the map -->
         <div id="map">
 
@@ -23,7 +34,7 @@
          and consistent behavior across browsers, consider loading using Promises
          with https://www.npmjs.com/package/@googlemaps/js-api-loader.
         -->
-        <iframe src="https://app.notionmaps.com/map/wfa-directory-l3kdszda" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://app.notionmaps.com/map/wfa-directory-l3kdszda" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       </body>
 </html>

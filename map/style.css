@@ -22,14 +22,24 @@
   padding:5px 0px 5px 0px;
   margin:10px 0px 10px 0px;
 }
+
+#navbar{
+  width:100%;
+  margin:auto;
+  background-color:#323E41;
+  position:absolute;
+}
+
 .nav{
   margin: 0 auto;
   width: 60%;
-  max-height:61px;
+  height:61px;
+  font-family:'Josefin sans',serif;
   display:grid;
   grid-template-columns: 3% auto;
   grid-column-gap:47%;
   z-index:2;
+  background-color:#323E41 ;
 }
 body{
   font-family: 'Caudex', serif;

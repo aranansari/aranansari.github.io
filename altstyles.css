@@ -89,8 +89,7 @@
 .nav{
     margin: 0 auto;
     width: 60%;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    height:61px;
     display:grid;
     grid-template-columns: 3% auto;
     grid-column-gap:47%;

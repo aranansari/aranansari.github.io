@@ -8,6 +8,7 @@
     width: 100%;
     /* The width is the width of the web page */
     padding-top:-61px;
+    z-index:1;
   }
 
   
@@ -28,6 +29,7 @@
   display:grid;
   grid-template-columns: 3% auto;
   grid-column-gap:47%;
+  z-index:2;
 }
 body{
   font-family: 'Caudex', serif;

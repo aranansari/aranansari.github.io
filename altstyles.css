@@ -203,6 +203,8 @@ h3{
 
 
 #map{
+    width:450px;
+    height:275px;
     max-width:100%;
     max-height:315px;
     border-radius:20px;

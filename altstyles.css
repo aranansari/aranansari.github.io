@@ -15,14 +15,6 @@
         width:auto;
         height:auto;
         visibility:visible;
-    
-    }
-    #third-section{
-           background-size: cover;
-           min-height:400px;
-           padding:40px 25% 40px 25%;
-           text-align:center;
-           justify-content: center;
     }
     #options{
             display:grid;
@@ -56,13 +48,6 @@
         height:0 !important;
         visibility:hidden;
     
-    }
-    #third-section{
-        background-size: cover;
-        min-height:400px;
-        padding:40px 0% 40px 0%;
-        text-align:center;
-        justify-content: center;
     }
     #options{
         display:grid;
@@ -217,6 +202,13 @@ h4{
 }
 
 
+#third-section{
+    background-size: cover;
+    min-height:400px;
+    padding:40px 25% 40px 25%;
+    text-align:center;
+    justify-content: center;
+}
 
 button{
     vertical-align: middle;

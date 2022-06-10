@@ -148,10 +148,12 @@ h3{
     font-weight: 700;
     font-size: 24px;
     color:white;
-  }
+}
+
 h4{
     font-weight:500;
     font-size:24px;
+    color: #ECECEC;   
 }
 
 #subtitle{
@@ -205,9 +207,20 @@ h4{
 #third-section{
     background-size: cover;
     min-height:400px;
-    padding:40px 25% 40px 25%;
+    padding:80px 25% 40px 25%;
     text-align:center;
     justify-content: center;
+}
+
+#third-text{
+    display:grid;
+    grid-template-columns: 35% 35%;
+    grid-column-gap: 2%;
+}
+
+#third-text img{
+    max-width:40px;
+    max-height:40px;
 }
 
 button{
